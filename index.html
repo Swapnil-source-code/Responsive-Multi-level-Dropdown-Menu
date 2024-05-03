@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi Level Dropdown Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+ 
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <img src="./images/logo.png" alt="logo">
+    </div>
+    <nav class="menu">
+      <div class="head">
+        <div class="logo"><img src="./images/logo.png" alt="logo"></div>
+        <button class="close-menu-btn"></button>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Pages</a>
+          <i class="fa-solid fa-chevron-down"></i>
+          <ul class="sub-menu">
+            <li><a href="#"><span>about</span></a></li>
+            <li class="dropdown">
+             <a href="#"><span>team</span></a>
+             <i class="fa-solid fa-chevron-down"></i>
+             <ul class="sub-menu sub-menu-right">
+              <li><a href="#"><span>team 1</span></a></li>
+              <li><a href="#"><span>team 2</span></a></li>
+              <li><a href="#"><span>team 3</span></a></li>
+              <li><a href="#"><span>team 4</span></a></li>
+              <li><a href="#"><span>team 5</span></a></li>
+             </ul>
+            </li>
+            <li><a href="#"><span>testimonials</span></a></li>
+            <li><a href="#"><span>pricing</span></a></li>
+            <li class="dropdown">
+              <a href="#"><span>elements</span></a>
+              <i class="fa-solid fa-chevron-down"></i>
+              <ul class="sub-menu sub-menu-right">
+                <li><a href="#"><span>accordion</span></a></li>
+                <li><a href="#"><span>alert</span></a></li>
+                <li class="dropdown">
+                  <a href="#"><span>cards</span></a>
+                  <i class="fa-solid fa-chevron-down"></i>
+                  <ul class="sub-menu sub-menu-right">
+                    <li><a href="#"><span>team 1</span></a></li>
+                    <li><a href="#"><span>team 2</span></a></li>
+                    <li><a href="#"><span>team 3</span></a></li>
+                    <li><a href="#"><span>team 4</span></a></li>
+                    <li><a href="#"><span>team 5</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>carousel</span></a></li>
+                <li><a href="#"><span>table</span></a></li>
+              </ul>
+            <li>
+          </ul>
+        </li>
+        <li><a href="#">Services</a></li>
+        <li class="dropdown">
+          <a href="#">Portfolio</a>
+          <i class="fa-solid fa-chevron-down"></i>
+          <ul class="sub-menu">
+            <li><a href="#"><span>Portfolio mansonry</span></a></li>
+            <li><a href="#"><span>Portfolio list </span></a></li>
+            <li><a href="#"><span>Portfolio details</span></a></li>
+            <li class="dropdown">
+             <a href="#"><span>Portfolio grid</span></a>
+             <i class="fa-solid fa-chevron-down"></i>
+             <ul class="sub-menu sub-menu-left">
+              <li><a href="#"><span>Portfolio 1</span></a></li>
+              <li><a href="#"><span>Portfolio 2</span></a></li>
+              <li><a href="#"><span>Portfolio 3</span></a></li>
+              <li><a href="#"><span>Portfolio 4</span></a></li>
+              <li><a href="#"><span>Portfolio 5</span></a></li>
+            </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <button type="button" class="search-btn icon-btn"><i class="fa-solid fa-search"></i></button>
+      <button type="button" class="cart-btn icon-btn"><i class="fa-solid fa-shopping-cart"></i></button>
+      <button type="button" class="open-menu-btn">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+    </div>
+  </div>
+</header> 
+
+<section class="hero">
+  
+</section>
+
+
+
+
+
+
+<script src="./js/multiple-level-menu-script.js"></script>
+</body>
+</html>
